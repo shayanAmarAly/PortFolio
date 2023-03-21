@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import JS from "../../public/JS.gif"
-import Next from "../../public/nextGif.gif"
+import Next from "../../public/nextGIF.gif"
 import tail from "../../public/tail.gif"
 
 const Skills = () => {
