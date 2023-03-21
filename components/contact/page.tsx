@@ -22,12 +22,13 @@ const Contact = () => {
         </div>
         <div className="flex w-1/2 items-center my-2">
           <Image src={git} alt="" className='w-[10%]' />
-          <p className='text-lg font-bold ml-5'>https://github.com/shayanAmarAly</p>
+          <Link href={'https://github.com/shayanAmarAly/'}>
+          <p className='text-lg font-bold ml-5 text-ellipsis'>github.com</p></Link>
         </div>
         <div className="flex w-full items-center ">
           <Image src={email} alt="" className='w-[5%]' />
           <Link href={"shayanamaraly@gmail.com"}>
-            <p className='text-lg font-bold ml-5 truncate tablet:text-clip'>github.com</p></Link>
+            <p className='text-lg font-bold ml-5 truncate tablet:text-clip'>shayanamaraly69@gmail.com</p></Link>
         </div>
         <div className="flex w-1/2 items-center my-2">
           <Image src={linkedIn} alt="" className='w-[10%]' />
