@@ -8,6 +8,7 @@ import git from "../../public/github5.png"
 
 const Contact = () => {
   return (
+    <>
     <div className="text-center tablet:m-auto tablet:w-11/12 text-slate-500">
       <div className='px-3'>
         <h1 className="text-2xl font-bold my-10 tablet:text-5xl tablet:my-14 text-slate-300 ">Contact</h1>
@@ -43,7 +44,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-
+</>
   )
 }
 
