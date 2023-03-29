@@ -19,14 +19,22 @@ const Contact = () => {
           <p className='text-lg font-bold ml-5'>+92 3468742593</p>
         </div>
         <div className="flex w-1/2 items-center my-2">
+<<<<<<< HEAD
           <Image src={git} alt="" className='w-[25px]' />
+=======
+          <Image src={git} alt="" className='w-[10%]' />
+>>>>>>> fc2e268c1f37c87b2b435a485033d3e229c7f0e2
           <Link href={'https://github.com/shayanAmarAly/'}>
           <p className='text-lg font-bold ml-5 text-ellipsis'>github.com</p></Link>
         </div>
         <div className="flex w-full items-center ">
           <Image src={email} alt="" className='w-[25px]' />
           <Link href={"shayanamaraly@gmail.com"}>
+<<<<<<< HEAD
             <p className='text-lg font-bold ml-5 truncate tablet:text-clip'>shayan117@gmail.com</p></Link>
+=======
+            <p className='text-lg font-bold ml-5 truncate tablet:text-clip'>shayanamaraly69@gmail.com</p></Link>
+>>>>>>> fc2e268c1f37c87b2b435a485033d3e229c7f0e2
         </div>
         <div className="flex w-1/2 items-center my-2">
           <Image src={linkedIn} alt="" className='w-[25px]' />
